@@ -147,7 +147,7 @@ export default function Hero() {
             ease: "easeOut",
           },
         }}
-        className="relative z-10"
+        className="relative z-10 "
       >
         <ToolsShowcase />
       </motion.div>

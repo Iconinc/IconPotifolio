@@ -1082,6 +1082,11 @@ video {
   --tw-rotate: 45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.scale-110 {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -1636,8 +1641,39 @@ video {
 .duration-300 {
   transition-duration: 300ms;
 }
+.duration-500 {
+  transition-duration: 500ms;
+}
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+.\[mask-image\:linear-gradient\(to_right\2c transparent\2c black_20\%\2c black_80\%\2c transparent\)\] {
+  -webkit-mask-image: linear-gradient(to right,transparent,black 20%,black 80%,transparent);
+          mask-image: linear-gradient(to right,transparent,black 20%,black 80%,transparent);
+}
+.\[mask-image\:linear-gradient\(to_right\2c transparent\2c white_100\%\2c _80\%\2c transparent\)\] {
+  -webkit-mask-image: linear-gradient(to right,transparent,white 100%, 80%,transparent);
+          mask-image: linear-gradient(to right,transparent,white 100%, 80%,transparent);
+}
+.\[mask-image\:linear-gradient\(to_right\2c transparent\2c white_100\%\2c black_80\%\2c transparent\)\] {
+  -webkit-mask-image: linear-gradient(to right,transparent,white 100%,black 80%,transparent);
+          mask-image: linear-gradient(to right,transparent,white 100%,black 80%,transparent);
+}
+.\[mask-image\:linear-gradient\(to_right\2c transparent\2c white_100\%\2c transparent\)\] {
+  -webkit-mask-image: linear-gradient(to right,transparent,white 100%,transparent);
+          mask-image: linear-gradient(to right,transparent,white 100%,transparent);
+}
+.\[mask-image\:linear-gradient\(to_right\2c transparent\2c white_20\%\2c black_10\%\2c transparent\)\] {
+  -webkit-mask-image: linear-gradient(to right,transparent,white 20%,black 10%,transparent);
+          mask-image: linear-gradient(to right,transparent,white 20%,black 10%,transparent);
+}
+.\[mask-image\:linear-gradient\(to_right\2c transparent\2c white_20\%\2c black_80\%\2c transparent\)\] {
+  -webkit-mask-image: linear-gradient(to right,transparent,white 20%,black 80%,transparent);
+          mask-image: linear-gradient(to right,transparent,white 20%,black 80%,transparent);
+}
+.\[mask-image\:linear-gradient\(to_right\2c transparent\2c white_20\%\2c white_80\%\2c transparent\)\] {
+  -webkit-mask-image: linear-gradient(to right,transparent,white 20%,white 80%,transparent);
+          mask-image: linear-gradient(to right,transparent,white 20%,white 80%,transparent);
 }
 
 :root {
