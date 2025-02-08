@@ -7,7 +7,7 @@ const ServiceCard = ({ service, index }: ServiceCardProps) => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.2 }}
-      className="group cursor-pointer relative flex flex-col space-y-4 rounded-2xl p-6 transition-colors duration-300 hover:bg-[#F4F7FF]"
+      className="group cursor-pointer relative flex flex-col space-y-4 rounded-2xl p-6 transition-colors duration-300 hover:bg-slate-200"
     >
       <div className="absolute -top-4 left-0 h-[1px] w-full bg-[#E5E7EB]" />
 
