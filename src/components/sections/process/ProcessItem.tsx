@@ -98,7 +98,7 @@ const ProcessItem = ({ item, index }: ProcessItemProps) => {
               initial={{ opacity: 0, x: isEven ? -20 : 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="rounded-2xl bg-white p-6 duration-300 mt-10"
+              className="rounded-2xl p-6 duration-300 mt-10"
             >
               <h3 className="mb-4 text-xl md:text-2xl font-medium text-[#2770F4]">
                 {item.title}

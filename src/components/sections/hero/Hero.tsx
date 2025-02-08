@@ -61,7 +61,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col overflow-hidden pt-44 md:pt-44 lg:pt-44 px-4 sm:px-6 lg:px-8">
+    <section className="relative min-h-screen flex flex-col overflow-hidden pt-44 md:pt-44 lg:pt-44 px-4 sm:px-6 lg:px-8 [mask-image:linear-gradient(to_bottom,transparent,black_20%,black_80%,transparent)]">
       <div
         className="absolute inset-0 z-0 pointer-events-none"
         style={{
@@ -74,7 +74,6 @@ export default function Hero() {
         className="absolute top-0 left-0 h-full hidden md:block"
         style={{
           width: "20%",
-          backgroundColor: "#FFFFFF",
         }}
       />
 

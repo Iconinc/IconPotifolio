@@ -25,7 +25,7 @@ const ExploreButton = ({
       <motion.button
         className={`
           relative rounded-full
-          bg-white
+          bg-[#F7F9FF]
           px-6 py-3
           text-base font-medium text-[#2770F4]
           m-[2px]

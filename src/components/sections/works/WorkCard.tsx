@@ -15,7 +15,7 @@ const WorkCard = ({ work, variants }: WorkCardProps) => {
       className="group relative cursor-pointer overflow-hidden"
     >
       <motion.div
-        className="relative rounded-3xl bg-white p-4 transition-all duration-300 ease-out"
+        className="relative rounded-3xl p-4 transition-all duration-300 ease-out"
         variants={{
           initial: { y: 30, opacity: 0 },
           animate: {
@@ -70,7 +70,7 @@ const WorkCard = ({ work, variants }: WorkCardProps) => {
             {work.tags.slice(0, 2).map((tag, i) => (
               <motion.span
                 key={tag}
-                className="rounded-full bg-[#F4F7FF] px-3 py-1 text-sm"
+                className="rounded-full bg-slate-200 px-3 py-1 text-sm"
                 variants={{
                   initial: { opacity: 0, x: -10 },
                   animate: {
