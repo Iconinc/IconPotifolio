@@ -39,7 +39,7 @@ const ToolsShowcase = () => {
   return (
     <div className="w-full mt-8 mb-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative overflow-hidden py-12 sm:py-14 md:py-16">
+        <div className="relative py-12 sm:py-14 md:py-16 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
           <motion.div
             className="flex"
             initial={{ y: 100, opacity: 0 }}

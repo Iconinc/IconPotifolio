@@ -27,7 +27,7 @@ const Footer = () => {
   const { footer } = contentData;
 
   return (
-    <footer className="relative mt-auto bg-[#1E1E1E] text-white">
+    <footer className="relative bottom-0 mt-auto bg-[#1E1E1E] text-white">
       <div className="container mx-auto px-4 py-20">
         <div className="mb-20 flex flex-col md:flex-row justify-between items-start">
           <div className="mb-10 md:mb-0">
